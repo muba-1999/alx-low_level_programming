@@ -9,9 +9,10 @@
 int main(void)
 {
 	int l;
+
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		putchar(l);
+		putchar(l);'\xa';
 	}
 
 	return (0);
