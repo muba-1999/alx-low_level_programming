@@ -12,8 +12,9 @@ int main(void)
 
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		putchar(l);'\xa';
+		putchar(l);
 	}
+	putchar('\n');
 
 	return (0);
 }
