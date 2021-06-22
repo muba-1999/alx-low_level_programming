@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _putchar - Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
