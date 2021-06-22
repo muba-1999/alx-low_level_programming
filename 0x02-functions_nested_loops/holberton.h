@@ -14,7 +14,7 @@ int _putchar(char c);
  *
  * Return: void
  */
-//void print_alphabet(void);
+/*void print_alphabet(void);*/
 
 
 /**
