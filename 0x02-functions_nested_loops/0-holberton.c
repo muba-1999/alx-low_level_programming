@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	-putchar("Holberton\n");
+	_putchar("Holberton\n");
 
 	return (0);
 }
