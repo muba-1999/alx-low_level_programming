@@ -1,10 +1,5 @@
 #include "holberton.h"
 
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-void print_alphabet_x10(void)
-#endif
-
 
 /**print_alphabet_x10 - prints the alphabet 10 times
  *
