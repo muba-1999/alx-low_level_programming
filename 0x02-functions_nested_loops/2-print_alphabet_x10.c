@@ -1,6 +1,7 @@
-#ifndef PRINT_ALPHABET_X10_H_INCLUDED
-#define PRINT_ALPHABET_X10_H_INCLUDED
 #include "holberton.h"
+
+#ifndef print_alphabet_x10
+void print_alphabet_x10(void)
 #endif
 
 
