@@ -1,7 +1,7 @@
 #include "holberton.h"
 
-#ifndef HOLBERTON_H_
-#define HOLBERTON_H_
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 void print_alphabet_x10(void)
 #endif
 
