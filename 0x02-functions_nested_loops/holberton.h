@@ -20,7 +20,7 @@ int _putchar(char c);
  *
  * Return: void
  */
-void print_alphabet(void);
+/*void print_alphabet(void);*/
 
 
 /**
@@ -29,6 +29,7 @@ void print_alphabet(void);
  * Return: Void
  */
 void print_alphabet_x10(void);
+ 
 
 /**
  * _islower - checks is a letter is lower case
