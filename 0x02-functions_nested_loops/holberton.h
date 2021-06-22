@@ -30,3 +30,10 @@ void print_alphabet_x10(void);
  * Return: 1 for true
  */
 int _islower(int c);
+
+/**
+ * _isalpha -checks if an argument is a letter
+ *
+ * Return: 1 True
+ */
+int _isalpha(int c);
