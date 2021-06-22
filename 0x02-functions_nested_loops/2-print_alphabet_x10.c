@@ -1,6 +1,7 @@
 #include "holberton.h"
 
-#ifndef print_alphabet_x10
+#ifndef HOLBERTON_H_
+#define HOLBERTON_H_
 void print_alphabet_x10(void)
 #endif
 
@@ -13,10 +14,11 @@ void print_alphabet_x10(void)
 {
 	int i;
 	char j;
+	i = 0;
 
 	while (i < 10)
 	{
-		for (j = 'a'; j <= 'z'; i++)
+		for (j = 'a'; j <= 'z'; j++)
 		{
 			_putchar(j);
 		}
