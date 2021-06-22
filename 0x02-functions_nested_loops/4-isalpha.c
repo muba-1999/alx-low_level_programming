@@ -9,12 +9,17 @@
  */
 int _isalpha(int c)
 {
-	if ((c == 'A' && c == 'Z') || (c == 'a' && c == 'z'))
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		return (0);
-	}
-	else
-	{
-		return (0);
+		if ((c == i) || (c == 'A' && 'Z'))
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
 }
