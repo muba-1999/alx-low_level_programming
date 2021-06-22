@@ -1,10 +1,4 @@
 #include <unistd.h>
-#ifndef PRINT_ALPHABET_X10(void)
-#define PRINT_ALPHABET(void)
-void print_alphabet_x10(void)
-void print_alphabet(void)
-
-#endif
 
  /**_putchar - writes the character c to stdout
  *@c: The character to print
@@ -20,7 +14,7 @@ int _putchar(char c);
  *
  * Return: void
  */
-/*void print_alphabet(void);*/
+//void print_alphabet(void);
 
 
 /**
@@ -29,7 +23,6 @@ int _putchar(char c);
  * Return: Void
  */
 void print_alphabet_x10(void);
- 
 
 /**
  * _islower - checks is a letter is lower case
