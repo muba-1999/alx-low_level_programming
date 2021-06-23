@@ -37,3 +37,14 @@ int _islower(int c);
  * Return: 1 True
  */
 int _isalpha(int c);
+
+
+/**
+ * print_sign - checks the sign of a number
+ * n: The number to be checked
+ *
+ * Return: 1 on positive
+ * 0 when 0
+ * -1 when negative
+ */
+int print_sign(int n);
