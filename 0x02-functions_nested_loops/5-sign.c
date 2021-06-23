@@ -2,7 +2,7 @@
 
 /**
  * print_sign: checks if a nuber is positive or negative
- * n: The character to be checked
+ * @n: The character to be checked
  *
  * Return: 1 when positive
  * 0 when not positive or negative
