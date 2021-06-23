@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - checks id an argument is a letter
- * @c - writes the value to the stdout
+ * @c: The character to print
  *
  * Return: on True 1
  * on False 0
@@ -13,7 +13,7 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
