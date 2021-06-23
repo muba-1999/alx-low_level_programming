@@ -9,7 +9,14 @@
 int print_last_digit(int n)
 {
 	int last;
+	int i;
 
-	last = (n % 10) * 11;
-	return (last);
+	i = 0;
+
+	while (i < 2)
+	{
+		last = n % 10;
+		return (last);
+		i++;
+	}
 }
