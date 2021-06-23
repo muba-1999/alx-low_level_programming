@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_sign: checks if a nuber is positive or negative
+ * print_sign - checks if a nuber is positive or negative
  * @n: The character to be checked
  *
  * Return: 1 when positive
