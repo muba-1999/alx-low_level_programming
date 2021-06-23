@@ -1,4 +1,9 @@
-#include <unistd.h>
+/**
+ * _abs - checks for the absolute value
+ *
+ * Return: Always 0 (Success)
+ */
+int _abs(int);
 
  /**_putchar - writes the character c to stdout
  *@c: The character to print
