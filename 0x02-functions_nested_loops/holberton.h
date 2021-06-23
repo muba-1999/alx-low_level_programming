@@ -5,6 +5,13 @@
  */
 int _abs(int);
 
+/**
+ * print_last_digit
+ *
+ * Return: value of last digit
+ */
+int print_last_digit(int n);
+
  /**_putchar - writes the character c to stdout
  *@c: The character to print
  *
