@@ -9,14 +9,8 @@
 int print_last_digit(int n)
 {
 	int last;
-	int i;
 
-	i = 0;
-
-	while (i < 2)
-	{
-		last = n % 10;
-		return (last);
-		i++;
-	}
+	last = n % 10;
+	return (last);
+	return (last);
 }
