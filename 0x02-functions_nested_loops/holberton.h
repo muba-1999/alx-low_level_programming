@@ -1,4 +1,11 @@
 /**
+ * add - adds two integers
+ *
+ * Return: sum of the two integers
+ */
+int add(int n, int m);
+
+/**
  * _abs - checks for the absolute value
  *
  * Return: Always 0 (Success)
