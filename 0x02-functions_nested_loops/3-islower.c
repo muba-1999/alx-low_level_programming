@@ -4,17 +4,16 @@
  * _islower - checks if a letter is lower case
  *
  * Return: 1 True
+ * c - returns a character
  */
 int _islower(int c)
 {
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++)
+	if (c >= 'a' && c <= 'z')
 	{
-		
+		return (1);
 	}
-	if (c == i)
-		return (0);
 	else
+	{
 		return (0);
+	}
 }
