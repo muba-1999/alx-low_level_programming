@@ -3,7 +3,7 @@
 
 /**
  * puts2 - starting point
- * @str - character to bet checked
+ * @str: character to bet checked
  *
  * Return: void
  */
@@ -16,7 +16,7 @@ void puts2(char *str)
 	{
 		len++;
 	}
-	for (i = 0; i < len; i+=2)
+	for (i = 0; i < len; i += 2)
 	{
 		 printf("%c", str[i]);
 	}
