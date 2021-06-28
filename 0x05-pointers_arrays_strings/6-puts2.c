@@ -10,7 +10,6 @@
 void puts2(char *str)
 {
 	int i;
-	char c;
 	int len = 0;
 
 	while (str[len] != '\0')
@@ -19,6 +18,6 @@ void puts2(char *str)
 	}
 	for (i = 0; i < len / 2; i++)
 	{
-		c = str[i];
+		*str = str[i];
 	}
 }
