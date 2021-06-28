@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <string.h>
 
 /**
  * _strcpy - coies a string
@@ -7,20 +8,15 @@
  *
  * Return: dest
  */
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src, size_t n)
 {
-	int len = 0;
-	int i;
+	size_t = i;
 
-	while (src[i] != '\0')
-	{
-		i++;
-	}
-	for (i = 0; i < len && src[i] != '\0'; i++)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
-	for (i = 0; i < len; i++)
+	for (;i < n; i++)
 	{
 		dest[i] = '\0';
 	}
