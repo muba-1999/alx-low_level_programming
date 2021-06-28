@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <string.h>
+#include "holberton.c"
 
 /**
  * _puts - prints a string to stdout
@@ -9,5 +10,7 @@
  */
 void _puts(char *str)
 {
-	write(1, str);
+	int len = _strlen(str);
+
+	write(1, str, len);
 }
