@@ -8,17 +8,14 @@
  *
  * Return: dest
  */
-char *_strcpy(char *dest, char *src, size_t n)
+char *_strcpy(char *dest, char *src)
 {
-	size_t = i;
+	int i;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	while (src[i])
 	{
 		dest[i] = src[i];
-	}
-	for (;i < n; i++)
-	{
-		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }
