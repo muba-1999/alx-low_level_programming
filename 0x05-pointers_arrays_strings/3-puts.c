@@ -1,6 +1,6 @@
 #include <unistd.h>
 #include <string.h>
-#include "holberton.c"
+#include "holberton.h"
 
 /**
  * _puts - prints a string to stdout
