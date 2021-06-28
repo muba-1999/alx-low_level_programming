@@ -9,7 +9,6 @@
  */
 void puts_half(char *str)
 {
-	char f;
 	int i;
 	int len = 0;
 
@@ -17,9 +16,19 @@ void puts_half(char *str)
 	{
 		len++;
 	}
-	for (i = len /2; i < len; i++)
+	if (len % 2 == 0)
 	{
-		f = str[i];
-		_putchar(f);
+		for (i = len / 2; i < len; i++)
+		{
+			_putchar(str[i]);
+		}
 	}
+	else
+	{
+		for (i = (len - 1) / 2; i < len; i++)
+		{
+			_putchar(s[i]);
+		}
+	}
+	_putchar('\n');
 }
