@@ -9,5 +9,12 @@
  */
 void _puts_recursion(char *s)
 {
-	write(1, s, 100);
+	int len = 0;
+
+	while (s[len] != '\0')
+	{
+		lent++;
+	}
+	write(1, s, len);
+	write(1, "\n", 1);
 }
