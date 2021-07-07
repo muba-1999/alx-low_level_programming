@@ -9,16 +9,18 @@
  */
 int is_prime_number(int n)
 {
-	int count = n / 2;
+	int i = 2;
 
-	if (n % count == 0)
+	if (n % i != 0)
+	{
+		i++;
+	}
+	if (n == i)
 	{
 		return (0);
 	}
 	else
 	{
-		count = count - 1;
 		return (1);
-		is_prime_number(n);
 	}
 }
