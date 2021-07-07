@@ -9,12 +9,7 @@
  */
 void _puts_recursion(char *s)
 {
-	int len = 0;
-
-	while (s[len] != '\0')
-	{
-		len++;
-	}
-	write(1, s, len);
+	write(1, s, 100);
 	write(1, "\n", 1);
+	_puts_recursion(s + 1);
 }
