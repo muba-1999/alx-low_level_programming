@@ -9,7 +9,13 @@
  */
 int is_prime_number(int n)
 {
-	if (n % 2 == 0)
+	int count = 0;
+
+	if (n / is_prime_number(n - 1) == 0)
+	{
+		count++;
+	}
+	if (count == 2)
 	{
 		return (1);
 	}
