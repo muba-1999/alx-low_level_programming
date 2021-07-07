@@ -1,5 +1,4 @@
-#include <unistd.h>
-#include <stdio.h>
+#include <unist.h>
 #include "holberton.h"
 
 /**
@@ -10,8 +9,12 @@
  */
 void _puts_recursion(char *s)
 {
-	int len = strlen(s);
-	
+	int len;
+
+	if (*s != '\0')
+	{
+		len = 1 + _puts_recursion(s + 1);
+	}
 	write(1, s, len);
 	write(1, "\n", 1);
 	_puts_recursion(s + 1);
