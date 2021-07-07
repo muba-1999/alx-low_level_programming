@@ -17,14 +17,6 @@ int is_prime_number(int n)
 	}
 	else
 	{
-		if (n % count == 0)
-		{
-			return (0);
-		}
-		else
-		{
-			count = count - 1;
-			is_prime_number(n);
-		}
+		return (0);
 	}
 }
