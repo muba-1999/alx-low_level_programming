@@ -7,9 +7,13 @@
  *
  * Return: void
  */
+void print(char *str)
+{
+	write(1, str, 1000);
+	write(1, '\n', 1);
+}
 void _puts_recursion(char *s)
 {
-	write(1, s, 100);
-	write(1, "\n", 1);
-	_puts_recursion(s);
+	print(s);
+	_puts_recursion(s + 1);
 }
