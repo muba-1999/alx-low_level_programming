@@ -9,6 +9,10 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	if (argc >= 2)
+	{
+		printf("%d\n", argc);
+	}
+
 	return (0);
 }
