@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- * @argc: argument counter 
+ * @argc: argument counter
  * @argv: 1 dimessional array
  *
  * Return: Always 0 (Success)
