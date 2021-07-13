@@ -19,11 +19,10 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		continue;
-	}
-	while (str[len] != '\0')
-	{
-		len++;
+		while (str[len] != '\0')
+		{
+			len++;
+		}
 	}
 	str2 = malloc((len + 1) * sizeof(char));
 	while (i < len)
