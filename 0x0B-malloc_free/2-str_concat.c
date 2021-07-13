@@ -32,6 +32,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		len++;
 	}
+	s3[k] = '\0';
 	s3 = malloc((len + 1) * sizeof(int));
 	return (s3);
 }
