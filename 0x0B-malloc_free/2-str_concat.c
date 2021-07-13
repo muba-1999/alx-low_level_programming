@@ -14,9 +14,8 @@ char *str_concat(char *s1, char *s2)
 	int i = 0;
 	int j = 0;
 	int k = 0;
-	int len = 0;
 
-	s3 = malloc(strlen(s1 + s2 + 1) * sizeof(char));
+	s3 = malloc(strlen(s3) * sizeof(char));
 	while (s1[i] != '\0')
 	{
 		s3[k] = s1[i];
