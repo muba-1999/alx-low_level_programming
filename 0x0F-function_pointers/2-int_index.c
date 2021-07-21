@@ -19,9 +19,9 @@ int int_index(int *array, int size, int (*cmp)(int))
 	}
 	for (i = 0; i < size; i++)
 	{
-		if (array[i] >= 1 && array[i] <= 9)
+		if (cmp(array + i))
 		{
-			cmp(&array[i]);
+			return (i);
 		}
 		else
 		{
