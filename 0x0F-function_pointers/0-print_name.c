@@ -10,6 +10,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	f = &name;
-	_putchar(f);
+	_putchar(*name);
+	(*f)(name);
 }
