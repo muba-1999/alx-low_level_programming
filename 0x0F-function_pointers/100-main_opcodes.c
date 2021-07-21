@@ -19,10 +19,6 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 	nb = atoi(argv[1]);
-	if (nb == 0)
-	{
-		return (1);
-	}
 	if (nb < 0)
 	{
 		printf("Error\n");
