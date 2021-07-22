@@ -48,6 +48,10 @@ void print_all(const char * const format, ...)
 		{
 			printf("nil");
 		}
+		if (*format != '\0' && (*format == 'i || *format == 'f' || *format == 'c' || *format == 's'))
+		{
+			printf(",");
+		}
 		format++;
 	}
 	va_end(arg);
