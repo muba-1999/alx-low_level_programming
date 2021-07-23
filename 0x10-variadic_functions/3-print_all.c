@@ -48,9 +48,5 @@ void print_all(const char * const format, ...)
 		{
 			printf(",");
 		}
-		if (s == NULL)
-		{
-			printf("nil");
-		}
 	}
 }
