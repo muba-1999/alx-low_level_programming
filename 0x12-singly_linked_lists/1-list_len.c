@@ -3,7 +3,7 @@
 
 /**
  * list_len - prints the length of list_t
- * @h: head node 
+ * @h: head node
  * Return: length
  */
 size_t list_len(const list_t *h)
