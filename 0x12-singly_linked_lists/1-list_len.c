@@ -23,7 +23,7 @@ typedef struct list_s
 size_t list_len(const list_t *h)
 {
 	size_t count = 0;
-	list_t cur;
+	const list_t *cur;
 
 	for (cur = h; cur; cur = cur->next)
 	{
