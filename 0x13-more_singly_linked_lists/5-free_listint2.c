@@ -3,7 +3,8 @@
 #include "lists.h"
 
 /**
- * free_listint2 - frees the memory allocated to the struct and sets the head to NULL
+ * free_listint2 - frees the memory allocated to the struct
+ * and sets the head to NULL
  * @head: head node
  * Return: nothing:
  */
