@@ -8,23 +8,23 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int k = 1;
-	unsigned int i = 0;
-	int c;
-	unsigned int len;
+	unsigned int decimal;
+	unsigned int i;
 
-	len = strlen(b);
-	for (c = len - 1; c >= 0; c--)
+	for (decimal = 0, i = 0; b[i] != '\0'; i++)
 	{
-		if (b[c] != '0' && b[c] != '1')
+		if (b[i] == '1')
+		{
+			decimal = (decimal << 1) | 1;
+		}
+		else if (b[i] == '0')
+		{
+			decimal <<= 1;
+		}
+		else if (b[i] != '0' && b[i] != '1')
 		{
 			return (0);
 		}
-		if (b[c] == '1')
-		{
-			i += k;
-		}
-		k *= 2;
 	}
-	return (i);
+	return (decimal);
 }
