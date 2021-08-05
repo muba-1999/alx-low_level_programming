@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_binary - prints binary representaion
  * of a number
@@ -10,7 +11,7 @@ void print_binary(unsigned long int n)
 	signed long int size;
 	char c;
 	int flag;
-	
+
 	size = sizeof(n) * 8 - 1;
 	if (n == 0)
 	{
@@ -23,7 +24,6 @@ void print_binary(unsigned long int n)
 		return;
 	}
 	flag = 0;
-	
 	while (size >= 0)
 	{
 		c = (n >> size) & 1;
