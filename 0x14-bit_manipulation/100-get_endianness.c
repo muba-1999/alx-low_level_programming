@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "holberton.h"
+#include "main.h"
 
 /**
  * get_endianness - retunrs the endian of the processor
